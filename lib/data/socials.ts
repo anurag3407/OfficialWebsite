@@ -5,14 +5,14 @@
 import type { SocialPlatform } from '@/lib/types';
 
 export const SOCIAL_LINKS: SocialPlatform[] = [
-  {
+ {
     name: 'GitHub',
     url: 'https://github.com/WnC-NITP',
     icon: 'github',
   },
   {
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/company/web-and-coding-club-nit-patna/about/',
+    url: 'https://www.linkedin.com/company/web-and-coding-club-nit-patna/',
     icon: 'linkedin',
   },
   {
@@ -22,12 +22,12 @@ export const SOCIAL_LINKS: SocialPlatform[] = [
   },
   {
     name: 'Twitter',
-    url: '#',
+    url: 'https://x.com/NITPatna1?lang=en',
     icon: 'twitter',
   },
   {
     name: 'YouTube',
-    url: '#',
+    url: 'https://youtube.com/@nit_patna?si=wLXKtVNMA3SGGsSX',
     icon: 'youtube',
   },
   {
