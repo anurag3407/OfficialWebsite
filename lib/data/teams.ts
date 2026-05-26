@@ -58,6 +58,7 @@ export const TEAMS: Team[] = [
         hierarchy: 'junior',
         image: '/images/team/placeholder-4.png',
         socials: {
+          linkedin: 'https://linkedin.com/in/sneha-patel',
           github: 'https://github.com/snehapatel',
           email: 'sneha.patel@nitp.ac.in',
         },
@@ -69,6 +70,7 @@ export const TEAMS: Team[] = [
         hierarchy: 'junior',
         image: '/images/team/placeholder-5.png',
         socials: {
+          linkedin: 'https://linkedin.com/in/rohit-kumar',
           github: 'https://github.com/rohitkumar',
           email: 'rohit.kumar@nitp.ac.in',
         },
@@ -104,6 +106,7 @@ export const TEAMS: Team[] = [
         hierarchy: 'senior',
         image: '/images/team/placeholder-7.png',
         socials: {
+          linkedin: 'https://linkedin.com/in/aditya-jha',
           github: 'https://github.com/adityajha',
           email: 'aditya.jha@nitp.ac.in',
         },
@@ -115,6 +118,7 @@ export const TEAMS: Team[] = [
         hierarchy: 'junior',
         image: '/images/team/placeholder-8.png',
         socials: {
+          linkedin: 'https://linkedin.com/in/nisha-gupta',
           github: 'https://github.com/nishagupta',
           email: 'nisha.gupta@nitp.ac.in',
         },
@@ -150,6 +154,7 @@ export const TEAMS: Team[] = [
         hierarchy: 'senior',
         image: '/images/team/placeholder-10.png',
         socials: {
+          linkedin: 'https://linkedin.com/in/ananya-mishra',
           github: 'https://github.com/ananyamishra',
           email: 'ananya.mishra@nitp.ac.in',
         },
@@ -161,6 +166,7 @@ export const TEAMS: Team[] = [
         hierarchy: 'junior',
         image: '/images/team/placeholder-11.png',
         socials: {
+          linkedin: 'https://linkedin.com/in/karan-yadav',
           github: 'https://github.com/karanyadav',
           email: 'karan.yadav@nitp.ac.in',
         },
@@ -196,6 +202,7 @@ export const TEAMS: Team[] = [
         hierarchy: 'senior',
         image: '/images/team/placeholder-13.png',
         socials: {
+          linkedin: 'https://linkedin.com/in/meera-krishnan',
           github: 'https://github.com/meerakrishnan',
           email: 'meera.krishnan@nitp.ac.in',
         },
@@ -207,6 +214,7 @@ export const TEAMS: Team[] = [
         hierarchy: 'junior',
         image: '/images/team/placeholder-14.png',
         socials: {
+          linkedin: 'https://linkedin.com/in/sahil-bansal',
           github: 'https://github.com/sahilbansal',
           email: 'sahil.bansal@nitp.ac.in',
         },
@@ -229,6 +237,7 @@ export const TEAMS: Team[] = [
       image: '/images/team/placeholder-15.png',
       socials: {
         linkedin: 'https://linkedin.com/in/ishita-agarwal',
+        github: 'https://github.com/ishita-agarwal',
         email: 'ishita.agarwal@nitp.ac.in',
       },
       quote: 'Great work deserves a great audience.',
@@ -242,6 +251,7 @@ export const TEAMS: Team[] = [
         image: '/images/team/placeholder-16.png',
         socials: {
           linkedin: 'https://linkedin.com/in/tanvi-bhatt',
+          github: 'https://github.com/tanvi-bhatt',
           email: 'tanvi.bhatt@nitp.ac.in',
         },
       },
@@ -277,6 +287,7 @@ export const TEAMS: Team[] = [
         image: '/images/team/placeholder-18.png',
         socials: {
           linkedin: 'https://linkedin.com/in/pooja-sinha',
+          github: 'https://github.com/pooja-sinha',
           email: 'pooja.sinha@nitp.ac.in',
         },
       },
@@ -312,6 +323,7 @@ export const TEAMS: Team[] = [
         image: '/images/team/placeholder-20.png',
         socials: {
           linkedin: 'https://linkedin.com/in/aman-raj',
+          github: 'https://github.com/aman-raj',
           email: 'aman.raj@nitp.ac.in',
         },
       },
