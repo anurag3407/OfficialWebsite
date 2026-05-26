@@ -6,200 +6,544 @@ import type { BlogPost } from '@/lib/types';
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    slug: 'building-web3-dapps-from-scratch',
-    title: 'Building Web3 DApps from Scratch: A Beginner\'s Guide',
+    slug: 'complete-dsa-roadmap-for-beginners',
+    title: 'Complete DSA Roadmap for Beginners to Crack Top Tech Companies',
     excerpt:
-      'A comprehensive walkthrough of building your first decentralized application using Solidity, Hardhat, and React. From smart contracts to frontend integration.',
+      'A complete roadmap for mastering Data Structures and Algorithms from scratch — covering arrays, linked lists, trees, graphs, dynamic programming, and competitive programming.',
     content: `
 ## Introduction
 
-Web3 development is no longer a niche skill — it's becoming essential for modern developers. In this guide, we'll walk through building a complete decentralized application (DApp) from the ground up.
+Data Structures and Algorithms (DSA) form the backbone of software engineering interviews and competitive programming. Whether you want to crack FAANG interviews or become a strong problem solver, mastering DSA is essential.
 
-## Prerequisites
+## Phase 1: Learn the Fundamentals
 
-- Solid understanding of JavaScript/TypeScript
-- Basic knowledge of React
-- MetaMask wallet installed
-- Node.js v18+ installed
+Start with:
+- Time Complexity
+- Space Complexity
+- Big O Notation
+- Recursion Basics
 
-## Setting Up the Development Environment
+## Core Data Structures
 
-First, let's set up our project with Hardhat, one of the most popular Ethereum development frameworks:
+Master these topics in order:
 
-\`\`\`bash
-mkdir my-dapp && cd my-dapp
-npx hardhat init
-\`\`\`
+1. Arrays & Strings
+2. Linked Lists
+3. Stacks & Queues
+4. HashMaps & Sets
+5. Trees & BST
+6. Heaps & Priority Queues
+7. Graphs
+8. Tries
 
-## Writing Your First Smart Contract
+## Problem Solving Strategy
 
-\`\`\`solidity
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.19;
+Whenever solving a problem:
+- Understand constraints
+- Solve brute force first
+- Optimize step-by-step
+- Analyze complexity
 
-contract SimpleStorage {
-    uint256 private storedValue;
+## Dynamic Programming
 
-    event ValueChanged(uint256 newValue);
+DP becomes easier when you:
+- Identify overlapping subproblems
+- Build recurrence relations
+- Practice memoization first
 
-    function set(uint256 value) public {
-        storedValue = value;
-        emit ValueChanged(value);
-    }
+## Competitive Programming
 
-    function get() public view returns (uint256) {
-        return storedValue;
-    }
-}
-\`\`\`
-
-## Connecting the Frontend
-
-With our contract deployed, we can now connect it to a React frontend using ethers.js. The key is to create a provider that connects to the user's MetaMask wallet.
+Platforms to practice:
+- Codeforces
+- LeetCode
+- CodeChef
+- AtCoder
 
 ## Conclusion
 
-Building DApps combines traditional web development skills with blockchain-specific knowledge. Start small, iterate, and don't be afraid to experiment. The Web3 ecosystem is incredibly welcoming to newcomers.
+Consistency matters more than speed. Solve problems daily and focus on learning patterns rather than memorizing solutions.
     `,
     author: {
-      name: 'Kavya Reddy',
-      avatar: '/images/team/placeholder-6.png',
-      role: 'Blockchain Team Lead',
+      name: 'Aman Raj',
+      avatar: '/images/team/placeholder-1.png',
+      role: 'CP Team Lead',
     },
-    date: '2025-04-15',
-    tags: ['Web3', 'Blockchain', 'Solidity', 'Tutorial'],
+    date: '2026-05-01',
+    tags: ['DSA', 'Competitive Programming', 'Interviews'],
     coverImage: '/images/events/hackathon.png',
-    readTime: 12,
+    readTime: 11,
     featured: true,
   },
+
   {
-    slug: 'mastering-react-server-components',
-    title: 'Mastering React Server Components in Next.js',
+    slug: 'mastering-dynamic-programming-patterns',
+    title: 'Mastering Dynamic Programming Through Patterns',
     excerpt:
-      'Deep dive into React Server Components — understanding the mental model, performance benefits, and practical patterns for building faster web apps.',
+      'Learn dynamic programming the smart way by understanding recurring patterns like knapsack, LIS, interval DP, digit DP, and tree DP.',
     content: `
-## What Are React Server Components?
+## Why DP Feels Hard
 
-React Server Components (RSC) represent a fundamental shift in how we think about rendering. They allow components to run exclusively on the server, sending only the rendered output to the client.
+Dynamic Programming is difficult because beginners try to memorize solutions instead of understanding patterns.
 
-## The Mental Model
+## Important DP Patterns
 
-Think of Server Components as templates that execute on the server. They can directly access databases, file systems, and other server-side resources without creating API endpoints.
+### 1. Fibonacci Pattern
+Used when current state depends on previous states.
 
-## When to Use Server vs Client Components
+### 2. Knapsack Pattern
+Problems involving take/not-take decisions.
 
-**Use Server Components when:**
-- Fetching data from a database
-- Accessing server-only resources
-- Keeping sensitive data on the server
+### 3. Longest Increasing Subsequence
+Optimization over sequences.
 
-**Use Client Components when:**
-- Adding interactivity (onClick, onChange)
-- Using React hooks (useState, useEffect)
-- Using browser-only APIs
+### 4. Grid DP
+Paths in matrices and grids.
 
-## Practical Patterns
+### 5. Bitmask DP
+Useful in advanced competitive programming.
 
-The most effective pattern is to keep your page-level components as Server Components and push client interactivity to the leaf nodes of your component tree.
+## Best Way to Learn
+
+- Start with recursion
+- Convert to memoization
+- Then tabulation
+- Finally optimize space
+
+## Common Mistakes
+
+- Wrong state definition
+- Forgetting base cases
+- Overcomplicating transitions
 
 ## Conclusion
 
-Server Components aren't just an optimization — they're a new way of thinking about web applications. Embrace the server-first mindset and your apps will be faster, simpler, and more secure.
+DP is all about observation and practice. Once patterns click, problems become significantly easier.
     `,
     author: {
-      name: 'Arjun Mehta',
-      avatar: '/images/team/placeholder-1.png',
-      role: 'Web Dev Team Lead',
+      name: 'Priyanshu Singh',
+      avatar: '/images/team/placeholder-2.png',
+      role: 'DSA Mentor',
     },
-    date: '2025-03-28',
-    tags: ['React', 'Next.js', 'Web Dev', 'Performance'],
+    date: '2026-05-02',
+    tags: ['DP', 'DSA', 'Algorithms'],
     coverImage: '/images/hero/about-illustration.png',
-    readTime: 8,
+    readTime: 9,
   },
+
   {
-    slug: 'getting-started-with-generative-ai',
-    title: 'Getting Started with Generative AI: From Prompts to Production',
+    slug: 'roadmap-to-becoming-fullstack-developer',
+    title: 'Roadmap to Becoming a Full Stack Developer in 2026',
     excerpt:
-      'Everything you need to know to start building with generative AI. Covers prompt engineering, API integration, RAG pipelines, and deploying AI features.',
+      'A practical guide for students who want to become full stack developers using React, Next.js, Node.js, databases, and deployment tools.',
     content: `
-## The Generative AI Landscape
+## Introduction
 
-2024–2025 has been the breakout era for generative AI. From ChatGPT to Claude, Gemini to open-source models like LLaMA — the tools available to developers have never been more powerful.
+Full stack development is one of the most in-demand skills today. Companies need developers who can build complete products end-to-end.
 
-## Prompt Engineering Fundamentals
+## Frontend Development
 
-The quality of your AI output is directly proportional to the quality of your prompts. Here are key techniques:
+Learn:
+- HTML
+- CSS
+- JavaScript
+- React
+- Next.js
+- Tailwind CSS
 
-1. **Be Specific**: Instead of "Write about dogs", try "Write a 200-word blog post about the health benefits of owning a Golden Retriever"
-2. **Provide Context**: Give the model relevant background information
-3. **Use Examples**: Few-shot prompting dramatically improves results
-4. **Iterate**: Refine your prompts based on outputs
+## Backend Development
 
-## Building a RAG Pipeline
+Important concepts:
+- REST APIs
+- Authentication
+- Databases
+- Server-side rendering
 
-Retrieval Augmented Generation (RAG) is the most practical pattern for building AI applications:
+Technologies:
+- Node.js
+- Express
+- PostgreSQL / MySQL
 
-1. Index your documents into a vector database
-2. When a user asks a question, retrieve relevant chunks
-3. Pass the retrieved context along with the question to the LLM
-4. Return the grounded response
+## Deployment
 
-## Deploying AI Features
+Deploy projects using:
+- Vercel
+- Netlify
+- Docker
+- AWS
 
-When deploying AI to production, consider: latency, cost, rate limiting, error handling, and fallback strategies.
+## Build Real Projects
+
+The best way to learn is by building:
+- Portfolio Website
+- Chat Application
+- AI SaaS Product
+- College Management System
 
 ## Conclusion
 
-Generative AI is not magic — it's a powerful tool that, when used thoughtfully, can create incredible user experiences. Start building today.
+The market rewards developers who can ship products quickly. Focus on building and deploying real-world applications.
     `,
     author: {
-      name: 'Rishi Verma',
-      avatar: '/images/team/placeholder-9.png',
-      role: 'Gen AI Team Lead',
+      name: 'Rohan Gupta',
+      avatar: '/images/team/placeholder-3.png',
+      role: 'Web Team Lead',
     },
-    date: '2025-05-10',
-    tags: ['AI', 'Gen AI', 'LLM', 'Tutorial'],
+    date: '2026-05-03',
+    tags: ['Web Dev', 'Full Stack', 'Next.js'],
     coverImage: '/images/events/hackathon.png',
     readTime: 10,
     featured: true,
   },
+
   {
-    slug: 'kaggle-competition-playbook',
-    title: 'The Kaggle Competition Playbook: Tips from NIT Patna\'s ML Team',
+    slug: 'how-generative-ai-is-changing-software-development',
+    title: 'How Generative AI is Changing Software Development',
     excerpt:
-      'Battle-tested strategies for performing well in Kaggle competitions — from feature engineering to ensemble methods and avoiding common pitfalls.',
+      'Explore how AI coding assistants, LLMs, and autonomous agents are transforming modern software engineering workflows.',
     content: `
-## Why Kaggle Competitions Matter
+## Introduction
 
-Kaggle competitions are the proving ground for ML practitioners. They teach you skills that textbooks can't — dealing with messy data, optimizing for real metrics, and working under constraints.
+Generative AI has transformed software development dramatically. Developers today can build products faster than ever before.
 
-## Our Approach
+## AI Coding Assistants
 
-1. **Understand the Data**: Spend 30% of your time on EDA
-2. **Baseline First**: Get a simple model working before trying fancy approaches
-3. **Feature Engineering**: This is where competitions are won
-4. **Validation Strategy**: Your local CV must correlate with the leaderboard
-5. **Ensemble**: Combine diverse models for the final submission
+Popular tools include:
+- GitHub Copilot
+- ChatGPT
+- Claude
+- Cursor AI
 
-## Common Mistakes
+## Where AI Helps
 
-- Overfitting to the public leaderboard
-- Not reading the competition rules carefully
-- Ignoring data leakage in feature engineering
-- Spending too much time on hyperparameter tuning vs feature engineering
+AI can:
+- Generate boilerplate code
+- Debug errors
+- Explain complex algorithms
+- Write documentation
+
+## Limitations
+
+AI is powerful but not perfect:
+- Hallucinations
+- Incorrect logic
+- Security vulnerabilities
+- Outdated solutions
+
+## Future of Development
+
+Developers who understand both coding and AI workflows will dominate the industry.
 
 ## Conclusion
 
-Kaggle is a marathon, not a sprint. Consistency, curiosity, and collaboration will take you further than any single technique.
+AI will not replace developers. Developers using AI will replace those who don't.
     `,
     author: {
-      name: 'Deepak Nair',
-      avatar: '/images/team/placeholder-12.png',
-      role: 'ML Team Lead',
+      name: 'Aditya Kumar',
+      avatar: '/images/team/placeholder-4.png',
+      role: 'AI Team Lead',
     },
-    date: '2025-02-14',
-    tags: ['ML', 'Data Science', 'Kaggle', 'Tips'],
+    date: '2026-05-04',
+    tags: ['AI', 'Gen AI', 'Software Engineering'],
     coverImage: '/images/hero/about-illustration.png',
+    readTime: 8,
+  },
+
+  {
+    slug: 'competitive-programming-guide-for-college-students',
+    title: 'Competitive Programming Guide for College Students',
+    excerpt:
+      'Everything you need to know to start competitive programming, improve ratings, and prepare for coding contests.',
+    content: `
+## Why Competitive Programming?
+
+Competitive Programming improves:
+- Problem-solving
+- Logical thinking
+- Speed coding
+- Interview performance
+
+## Best Platforms
+
+- Codeforces
+- LeetCode
+- CodeChef
+- AtCoder
+
+## Beginner Strategy
+
+Start with:
+- Arrays
+- Sorting
+- Binary Search
+- Greedy Algorithms
+
+## Contest Mindset
+
+During contests:
+- Read all problems first
+- Solve easy problems quickly
+- Avoid panic
+
+## Rating Growth Tips
+
+Consistency beats intensity. Solving 2 problems daily is better than 20 once a week.
+
+## Conclusion
+
+CP is a long journey. Focus on learning patterns and enjoying the process.
+    `,
+    author: {
+      name: 'Sakshi Sharma',
+      avatar: '/images/team/placeholder-5.png',
+      role: 'CP Coordinator',
+    },
+    date: '2026-05-05',
+    tags: ['Competitive Programming', 'Codeforces', 'DSA'],
+    coverImage: '/images/events/hackathon.png',
     readTime: 7,
   },
+
+  {
+    slug: 'building-ai-chatbots-with-rag',
+    title: 'Building AI Chatbots with RAG Architecture',
+    excerpt:
+      'Learn how Retrieval-Augmented Generation works and how modern AI chatbots retrieve relevant information before generating answers.',
+    content: `
+## What is RAG?
+
+Retrieval-Augmented Generation combines:
+- Vector databases
+- Information retrieval
+- Large language models
+
+## Why Use RAG?
+
+RAG improves:
+- Accuracy
+- Context awareness
+- Knowledge freshness
+
+## Tech Stack
+
+Typical RAG stack:
+- LangChain
+- Pinecone
+- OpenAI APIs
+- Next.js
+
+## Workflow
+
+1. Embed documents
+2. Store vectors
+3. Retrieve relevant chunks
+4. Generate grounded response
+
+## Conclusion
+
+RAG is one of the most practical AI architectures for real-world applications today.
+    `,
+    author: {
+      name: 'Neha Agarwal',
+      avatar: '/images/team/placeholder-6.png',
+      role: 'Gen AI Research Lead',
+    },
+    date: '2026-05-06',
+    tags: ['AI', 'RAG', 'LLM'],
+    coverImage: '/images/hero/about-illustration.png',
+    readTime: 9,
+  },
+
+  {
+    slug: 'understanding-operating-systems-for-developers',
+    title: 'Understanding Operating Systems for Developers',
+    excerpt:
+      'A developer-friendly guide to processes, threads, memory management, scheduling, synchronization, and file systems.',
+    content: `
+## Why Learn Operating Systems?
+
+Operating Systems concepts are extremely important for:
+- Interviews
+- Backend development
+- System design
+
+## Key Topics
+
+- Processes vs Threads
+- CPU Scheduling
+- Deadlocks
+- Virtual Memory
+- Paging
+
+## Multithreading
+
+Modern applications rely heavily on concurrency and asynchronous execution.
+
+## Real-World Importance
+
+Understanding OS helps you write:
+- Efficient programs
+- Concurrent applications
+- Scalable systems
+
+## Conclusion
+
+OS is not just theory — it directly impacts how software performs in production.
+    `,
+    author: {
+      name: 'Harshit Jain',
+      avatar: '/images/team/placeholder-7.png',
+      role: 'Systems Programming Lead',
+    },
+    date: '2026-05-07',
+    tags: ['Operating Systems', 'CS Fundamentals'],
+    coverImage: '/images/events/hackathon.png',
+    readTime: 8,
+  },
+
+  {
+    slug: 'nextjs-performance-optimization-guide',
+    title: 'Next.js Performance Optimization Guide',
+    excerpt:
+      'Learn advanced performance optimization techniques for Next.js applications including caching, image optimization, and server rendering.',
+    content: `
+## Why Performance Matters
+
+Users leave slow websites quickly. Performance directly impacts:
+- SEO
+- User retention
+- Conversion rates
+
+## Optimization Techniques
+
+### Image Optimization
+Use next/image for automatic optimization.
+
+### Server Components
+Reduce client-side JavaScript.
+
+### Caching
+Implement smart caching strategies.
+
+### Lazy Loading
+Load heavy components only when needed.
+
+## Monitoring
+
+Track:
+- Lighthouse scores
+- Core Web Vitals
+- Time to Interactive
+
+## Conclusion
+
+Fast applications provide better user experiences and rank higher on search engines.
+    `,
+    author: {
+      name: 'Ayush Raj',
+      avatar: '/images/team/placeholder-8.png',
+      role: 'Frontend Engineer',
+    },
+    date: '2026-05-08',
+    tags: ['Next.js', 'Performance', 'Web Dev'],
+    coverImage: '/images/hero/about-illustration.png',
+    readTime: 6,
+  },
+
+  {
+    slug: 'introduction-to-machine-learning-for-beginners',
+    title: 'Introduction to Machine Learning for Beginners',
+    excerpt:
+      'A beginner-friendly introduction to machine learning concepts, supervised learning, unsupervised learning, and model evaluation.',
+    content: `
+## What is Machine Learning?
+
+Machine Learning enables computers to learn patterns from data and make predictions.
+
+## Types of ML
+
+### Supervised Learning
+Models learn from labeled data.
+
+### Unsupervised Learning
+Models discover hidden patterns.
+
+### Reinforcement Learning
+Agents learn through rewards.
+
+## Important Algorithms
+
+- Linear Regression
+- Decision Trees
+- Random Forest
+- Neural Networks
+
+## Tools
+
+Popular ML tools:
+- Python
+- NumPy
+- Pandas
+- Scikit-learn
+
+## Conclusion
+
+ML is one of the fastest-growing domains in technology and research.
+    `,
+    author: {
+      name: 'Shreya Kapoor',
+      avatar: '/images/team/placeholder-9.png',
+      role: 'ML Team Lead',
+    },
+    date: '2026-05-09',
+    tags: ['ML', 'AI', 'Python'],
+    coverImage: '/images/events/hackathon.png',
+    readTime: 8,
+  },
+
+  {
+    slug: 'git-and-github-best-practices',
+    title: 'Git and GitHub Best Practices Every Developer Should Know',
+    excerpt:
+      'Learn professional Git workflows, commit conventions, branching strategies, pull requests, and collaboration techniques.',
+    content: `
+## Why Git Matters
+
+Git is the industry-standard version control system.
+
+## Essential Commands
+
+- git clone
+- git commit
+- git push
+- git pull
+- git checkout
+
+## Branching Strategy
+
+Use:
+- main branch
+- feature branches
+- hotfix branches
+
+## Writing Good Commits
+
+Good commit messages should:
+- Be concise
+- Explain intent
+- Follow conventions
+
+## Conclusion
+
+Mastering Git improves team collaboration and project management significantly.
+    `,
+    author: {
+      name: 'Nikhil Verma',
+      avatar: '/images/team/placeholder-10.png',
+      role: 'Open Source Lead',
+    },
+    date: '2026-05-10',
+    tags: ['Git', 'GitHub', 'Open Source'],
+    coverImage: '/images/hero/about-illustration.png',
+    readTime: 6,
+  }
 ];
