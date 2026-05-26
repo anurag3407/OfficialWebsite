@@ -27,7 +27,7 @@ export default function TeamPage() {
       {/* Teams */}
       <div className="container-wide">
         {TEAMS.map((team, i) => (
-          <div key={team.id}>
+          <div key={`${team.id}-${i}`}>
             <TeamSection team={team} />
             {i < TEAMS.length - 1 && <hr className="section-divider" />}
           </div>

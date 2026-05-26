@@ -134,8 +134,8 @@ export default function TeamSection({ team }: { team: Team }) {
         <div className="flex flex-col items-center w-full">
           <h3 className="text-mono text-xs mb-6 tracking-[0.2em] text-[var(--text-accent)] text-center">// MEMBERS</h3>
           <div className="flex flex-wrap justify-center gap-6 w-full">
-            {team.members.map((member) => (
-              <div key={member.id} className="member-card w-full sm:w-[calc(50%-12px)] md:w-[calc(33.33%-16px)] lg:w-[calc(25%-18px)] max-w-[325px]">
+            {team.members.map((member, j) => (
+              <div key={`${member.id}-${j}`} className="member-card w-full sm:w-[calc(50%-12px)] md:w-[calc(33.33%-16px)] lg:w-[calc(25%-18px)] max-w-[325px]">
                 <MemberCard member={member} teamColor={team.color} teamName={team.name} />
               </div>
             ))}
