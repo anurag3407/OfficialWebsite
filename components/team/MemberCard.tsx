@@ -248,7 +248,10 @@ export default function MemberCard({ member, teamColor = '#D4643B', teamName = '
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-[90%] h-[90%] object-cover object-bottom rounded-t-lg border-x-2 border-t-2 border-[#0e1713] shadow-[2px_0px_8px_rgba(0,0,0,0.3)] transform translate-y-1 group-hover:scale-102 group-hover:translate-y-0.5 transition-all duration-300"
+                  className="w-full h-full object-cover object-bottom transition-all duration-300"
+                  style={{
+                    filter: 'drop-shadow(2px 0px 0 white) drop-shadow(-2px 0px 0 white) drop-shadow(0px -2px 0 white) drop-shadow(0 20px 20px rgba(0,0,0,0.4))',
+                  }}
                 />
               )}
             </div>
