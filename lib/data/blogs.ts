@@ -479,6 +479,10 @@ Treating your infrastructure like application code allows you to version control
       avatar: '/images/team/placeholder-7.png',
       role: 'DevOps Team',
     },
+    date: '2025-05-10',
+    tags: ['AI', 'Gen AI', 'LLM', 'Tutorial'],
+   coverImage: '/images/events/hackathon.png',
+    readTime: 10,
     date: '2026-01-30',
     tags: ['Terraform', 'IaC', 'DevOps'],
     coverImage: '/images/events/hackathon.png',
@@ -888,6 +892,499 @@ Understand the fundamental difference: BFS goes wide, while DFS goes deep.
     coverImage: '/images/hero/about-illustration.png',
     readTime: 10,
   },
+  {
+  slug: 'modern-web-development-trends',
+  title: 'Modern Web Development Trends in 2026',
+  excerpt:
+    'Explore the latest trends shaping the future of web development including AI integrations, server components, and motion UI.',
+  content: `
+## Introduction
+
+Web development is evolving rapidly with new frameworks and technologies.
+
+## Major Trends
+
+- AI powered interfaces
+- Motion driven design
+- Edge computing
+- Server-first rendering
+
+## Conclusion
+
+Developers who adapt quickly will stay ahead in the industry.
+    `,
+  author: {
+    name: 'Aman Raj',
+    avatar: '/images/team/placeholder-1.png',
+    role: 'Frontend Developer',
+  },
+  date: '2025-05-01',
+  tags: ['Web Dev', 'React', 'Trends', 'Frontend'],
+  coverImage: '/images/events/hackathon.png',
+  readTime: 7,
+  featured: false,
+},
+
+{
+  slug: 'complete-guide-to-nextjs',
+  title: 'Complete Guide to Next.js for Beginners',
+  excerpt:
+    'Learn how to build fast and scalable applications using Next.js and React.',
+  content: `
+## Introduction
+
+Next.js simplifies full-stack React development.
+
+## Features
+
+- Server Side Rendering
+- API Routes
+- Static Generation
+- App Router
+
+## Conclusion
+
+Next.js is one of the best frameworks for modern web apps.
+    `,
+  author: {
+    name: 'Priyanshu Kumar',
+    avatar: '/images/team/placeholder-2.png',
+    role: 'Full Stack Developer',
+  },
+  date: '2025-05-02',
+  tags: ['Next.js', 'React', 'Web Dev', 'JavaScript'],
+  coverImage: '/images/events/hackathon.png',
+  readTime: 8,
+  featured: true,
+},
+
+{
+  slug: 'tailwind-css-best-practices',
+  title: 'Tailwind CSS Best Practices for Clean UI',
+  excerpt:
+    'Discover practical techniques for building scalable and maintainable Tailwind CSS projects.',
+  content: `
+## Why Tailwind?
+
+Tailwind CSS improves development speed significantly.
+
+## Best Practices
+
+- Reusable components
+- Consistent spacing
+- Responsive utilities
+- Proper color usage
+
+## Conclusion
+
+A clean utility strategy makes projects easier to maintain.
+    `,
+  author: {
+    name: 'Neha Singh',
+    avatar: '/images/team/placeholder-3.png',
+    role: 'UI Engineer',
+  },
+  date: '2025-05-03',
+  tags: ['Tailwind', 'CSS', 'UI/UX', 'Frontend'],
+  coverImage: '/images/events/hackathon.png',
+  readTime: 6,
+  featured: false,
+},
+
+{
+  slug: 'building-rest-api-with-nodejs',
+  title: 'Building REST APIs with Node.js and Express',
+  excerpt:
+    'A practical introduction to backend API development using Express and Node.js.',
+  content: `
+## Introduction
+
+REST APIs are the backbone of modern applications.
+
+## Topics Covered
+
+- Routing
+- Middleware
+- Authentication
+- Error handling
+
+## Conclusion
+
+Node.js makes backend development efficient and scalable.
+    `,
+  author: {
+    name: 'Rahul Verma',
+    avatar: '/images/team/placeholder-4.png',
+    role: 'Backend Developer',
+  },
+  date: '2025-05-04',
+  tags: ['Node.js', 'Backend', 'Express', 'API'],
+  coverImage: '/images/events/hackathon.png',
+  readTime: 9,
+  featured: false,
+},
+
+{
+  slug: 'react-hooks-explained',
+  title: 'React Hooks Explained with Real Examples',
+  excerpt:
+    'Understand React hooks deeply with practical examples and use cases.',
+  content: `
+## Introduction
+
+Hooks changed how React applications are built.
+
+## Important Hooks
+
+- useState
+- useEffect
+- useMemo
+- useRef
+
+## Conclusion
+
+Hooks simplify state management and component logic.
+    `,
+  author: {
+    name: 'Shivam Kumar',
+    avatar: '/images/team/placeholder-5.png',
+    role: 'React Developer',
+  },
+  date: '2025-05-05',
+  tags: ['React', 'Hooks', 'JavaScript', 'Frontend'],
+  coverImage: '/images/events/hackathon.png',
+  readTime: 7,
+  featured: true,
+},
+
+{
+  slug: 'introduction-to-machine-learning',
+  title: 'Introduction to Machine Learning Concepts',
+  excerpt:
+    'Understand the foundations of machine learning and its real-world applications.',
+  content: `
+## Introduction
+
+Machine Learning powers many modern technologies.
+
+## Topics
+
+- Supervised learning
+- Unsupervised learning
+- Neural networks
+- Model training
+
+## Conclusion
+
+ML is becoming an essential skill for developers.
+    `,
+  author: {
+    name: 'Ritika Sharma',
+    avatar: '/images/team/placeholder-6.png',
+    role: 'ML Engineer',
+  },
+  date: '2025-05-06',
+  tags: ['ML', 'AI', 'Data Science', 'Python'],
+  coverImage: '/images/events/hackathon.png',
+  readTime: 10,
+  featured: false,
+},
+
+{
+  slug: 'framer-motion-animation-guide',
+  title: 'Framer Motion Animation Guide for React',
+  excerpt:
+    'Create smooth and interactive animations in React applications using Framer Motion.',
+  content: `
+## Introduction
+
+Animations improve user engagement and visual quality.
+
+## Features
+
+- Page transitions
+- Hover effects
+- Scroll animations
+- Gesture animations
+
+## Conclusion
+
+Framer Motion is powerful and beginner friendly.
+    `,
+  author: {
+    name: 'Anjali Gupta',
+    avatar: '/images/team/placeholder-7.png',
+    role: 'Motion Designer',
+  },
+  date: '2025-05-07',
+  tags: ['Framer Motion', 'Animation', 'React', 'UI'],
+  coverImage: '/images/events/hackathon.png',
+  readTime: 6,
+  featured: false,
+},
+
+{
+  slug: 'competitive-programming-roadmap',
+  title: 'Competitive Programming Roadmap for Beginners',
+  excerpt:
+    'A complete roadmap for mastering data structures and algorithms.',
+  content: `
+## Introduction
+
+Competitive programming improves logical thinking.
+
+## Important Topics
+
+- Arrays
+- Graphs
+- DP
+- Trees
+
+## Conclusion
+
+Consistency is the key to improvement in DSA.
+    `,
+  author: {
+    name: 'Nikhil Raj',
+    avatar: '/images/team/placeholder-8.png',
+    role: 'DSA Mentor',
+  },
+  date: '2025-05-08',
+  tags: ['DSA', 'CP', 'Algorithms', 'Coding'],
+  coverImage: '/images/events/hackathon.png',
+  readTime: 8,
+  featured: true,
+},
+
+{
+  slug: 'docker-for-web-developers',
+  title: 'Docker for Web Developers',
+  excerpt:
+    'Learn containerization and deployment basics using Docker.',
+  content: `
+## Introduction
+
+Docker simplifies deployment and development environments.
+
+## Topics Covered
+
+- Containers
+- Dockerfiles
+- Images
+- Docker Compose
+
+## Conclusion
+
+Docker is essential for scalable applications.
+    `,
+  author: {
+    name: 'Sourav Das',
+    avatar: '/images/team/placeholder-9.png',
+    role: 'DevOps Engineer',
+  },
+  date: '2025-05-09',
+  tags: ['Docker', 'DevOps', 'Backend', 'Deployment'],
+  coverImage: '/images/events/hackathon.png',
+  readTime: 7,
+  featured: false,
+},
+
+{
+  slug: 'firebase-authentication-guide',
+  title: 'Firebase Authentication Complete Guide',
+  excerpt:
+    'Implement secure authentication in your applications using Firebase.',
+  content: `
+## Introduction
+
+Authentication is crucial for user-based applications.
+
+## Features
+
+- Google login
+- Email authentication
+- OTP verification
+- Session management
+
+## Conclusion
+
+Firebase makes authentication simple and reliable.
+    `,
+  author: {
+    name: 'Pooja Singh',
+    avatar: '/images/team/placeholder-10.png',
+    role: 'Firebase Developer',
+  },
+  date: '2025-05-10',
+  tags: ['Firebase', 'Authentication', 'Backend', 'Security'],
+  coverImage: '/images/events/hackathon.png',
+  readTime: 6,
+  featured: false,
+},
+  {
+  slug: 'cybersecurity-basics-for-developers',
+  title: 'Cybersecurity Basics Every Developer Should Learn',
+  excerpt:
+    'Learn the essential cybersecurity concepts developers should know to build safer applications.',
+  content: `
+## Introduction
+
+Security is one of the most important aspects of modern development.
+
+## Key Concepts
+
+- Authentication
+- Authorization
+- Encryption
+- Secure APIs
+
+## Conclusion
+
+Understanding security fundamentals helps developers build trustworthy systems.
+    `,
+  author: {
+    name: 'Harsh Pandey',
+    avatar: '/images/team/placeholder-11.png',
+    role: 'Security Engineer',
+  },
+  date: '2025-05-11',
+  tags: ['Cybersecurity', 'Security', 'Backend', 'Web Dev'],
+  coverImage: '/images/hero/about-illustration.png',
+  readTime: 7,
+  featured: false,
+},
+
+{
+  slug: 'open-source-contribution-guide',
+  title: 'Complete Open Source Contribution Guide',
+  excerpt:
+    'A beginner-friendly roadmap for contributing to open source projects on GitHub.',
+  content: `
+## Introduction
+
+Open source contributions help developers grow rapidly.
+
+## Topics Covered
+
+- Finding projects
+- Creating pull requests
+- Writing clean code
+- Collaboration tips
+
+## Conclusion
+
+Contributing regularly builds both skill and reputation.
+    `,
+  author: {
+    name: 'Ayush Kumar',
+    avatar: '/images/team/placeholder-12.png',
+    role: 'Open Source Mentor',
+  },
+  date: '2025-05-12',
+  tags: ['Open Source', 'GitHub', 'Projects', 'Community'],
+  coverImage: '/images/events/hackathon.png',
+  readTime: 8,
+  featured: true,
+},
+
+{
+  slug: 'building-portfolio-websites',
+  title: 'How to Build Stunning Portfolio Websites',
+  excerpt:
+    'Learn design and development techniques for creating impressive personal portfolio websites.',
+  content: `
+## Introduction
+
+Your portfolio is your digital identity.
+
+## Important Sections
+
+- Hero section
+- Projects showcase
+- About section
+- Contact page
+
+## Conclusion
+
+A strong portfolio increases opportunities and visibility.
+    `,
+  author: {
+    name: 'Rohan Mishra',
+    avatar: '/images/team/placeholder-1.png',
+    role: 'Frontend Designer',
+  },
+  date: '2025-05-13',
+  tags: ['Portfolio', 'UI/UX', 'Frontend', 'Design'],
+  coverImage: '/images/hero/about-illustration.png',
+  readTime: 6,
+  featured: false,
+},
+
+{
+  slug: 'typescript-for-large-projects',
+  title: 'Using TypeScript in Large Scale Applications',
+  excerpt:
+    'Understand how TypeScript improves maintainability and scalability in modern applications.',
+  content: `
+## Introduction
+
+TypeScript provides type safety and better tooling support.
+
+## Advantages
+
+- Better autocomplete
+- Fewer runtime bugs
+- Easier refactoring
+- Improved maintainability
+
+## Conclusion
+
+TypeScript is essential for scalable modern development.
+    `,
+  author: {
+    name: 'Karan Singh',
+    avatar: '/images/team/placeholder-2.png',
+    role: 'TypeScript Developer',
+  },
+  date: '2025-05-14',
+  tags: ['TypeScript', 'JavaScript', 'Frontend', 'Backend'],
+  coverImage: '/images/events/hackathon.png',
+  readTime: 9,
+  featured: false,
+},
+
+{
+  slug: 'devops-roadmap-2026',
+  title: 'DevOps Roadmap for Beginners in 2026',
+  excerpt:
+    'Learn the technologies and tools required to become a successful DevOps engineer.',
+  content: `
+## Introduction
+
+DevOps combines development and operations practices.
+
+## Technologies
+
+- Docker
+- Kubernetes
+- CI/CD
+- Linux
+
+## Conclusion
+
+DevOps skills are highly valuable in modern software teams.
+    `,
+  author: {
+    name: 'Vikas Raj',
+    avatar: '/images/team/placeholder-3.png',
+    role: 'DevOps Engineer',
+  },
+  date: '2025-05-15',
+  tags: ['DevOps', 'Docker', 'Cloud', 'Deployment'],
+  coverImage: '/images/hero/about-illustration.png',
+  readTime: 8,
+  featured: true,
+}
 
   // ============================================================
   // WEB PERFORMANCE
