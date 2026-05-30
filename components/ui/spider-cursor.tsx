@@ -100,8 +100,8 @@ export function SpiderCursor() {
     let animationFrameId: number;
 
     function anim(t: number) {
-      if (w !== window.innerWidth) w = canvas.width = window.innerWidth
-      if (h !== window.innerHeight) h = canvas.height = window.innerHeight
+      if (w !== window.innerWidth) w = canvas!.width = window.innerWidth
+      if (h !== window.innerHeight) h = canvas!.height = window.innerHeight
       ctx.fillStyle = "#000"
       drawCircle(0, 0, w * 10)
       ctx.fillStyle = ctx.strokeStyle = "#fff"
